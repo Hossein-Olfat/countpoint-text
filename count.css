@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+textarea{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+}
+button{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+}
+.check-btn:hover{
+    background-color: rgb(97, 97, 97);
+    transition: .2s;
+}
+.count{
+    margin: 100px 0px;
+    
+}
+.count-container{
+    width:478.094px;
+   margin: 0px auto;
+}
+.check{
+    display: flex;
+    width: 100%;
+    margin-bottom: 16px;
+    justify-content: center;
+}
+
+.textarea{
+    width: 100%;
+    min-width: 300px;
+    padding: 8px 8px;
+    border: .5px solid rgba(0, 0, 0, .2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    resize: none;
+    overflow: hidden;
+   
+    
+}
+
+.check-btn{
+    margin-right: 8px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    font-size: 1.1rem;
+    padding: 8px 0px;
+    
+    min-width: 100px;
+    height: 37px;
+}
+.result{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+@media screen and (max-width:550px){
+    .count-container{
+        width: 400px;
+    }
+        
+}
+@media screen and (max-width:460px){
+    .count-container{
+        width: 100%;
+    }
+        
+}
